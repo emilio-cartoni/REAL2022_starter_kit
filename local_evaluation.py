@@ -11,7 +11,7 @@ with open('options.yml', 'r') as ymlfile:
     envs = {'easy': 'R1', 'hard': 'R2'}
     ENVIRONMENT = envs[cfg['ENVIRONMENT_TYPE']]
 
-DATASET_PATH = "./data/goals-REAL2020-s2021-25-15-10-%s.npy.npz" % EVALUATION_N_OBJECTS
+DATASET_PATH = "./data/goals-REAL2020-s2022-25-15-10-%s.npy.npz" % EVALUATION_N_OBJECTS
 
 result, detailed_scores = real_robots.evaluate(
                 SubmittedPolicy,

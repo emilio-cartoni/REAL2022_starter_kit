@@ -39,8 +39,8 @@ cd ..
 gpu_support=false
 #gpu_support=true
 if [ "$gpu_support" = true ] ; then
-    docker build -t real2021submission:$(date '+%Y%m%d%H%M%S') -t real2021submission:latest -f ./docker/Dockerfile_gpu  .
+    docker build -t real2022submission:$(date '+%Y%m%d%H%M%S') -t real2022submission:latest -f ./docker/Dockerfile_gpu  .
 else
-    docker build -t real2021submission:$(date '+%Y%m%d%H%M%S') -t real2021submission:latest -f ./docker/Dockerfile  .
+    docker build -t real2022submission:$(date '+%Y%m%d%H%M%S') -t real2022submission:latest -f ./docker/Dockerfile  .
 fi
 
