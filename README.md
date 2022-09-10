@@ -1,4 +1,4 @@
-![REAL2022 banner](https://raw.githubusercontent.com/wiki/emilio-cartoni/REAL2021_starter_kit/images/banner2022.gif)
+![REAL2022 banner](https://raw.githubusercontent.com/wiki/emilio-cartoni/REAL2022_starter_kit/images/banner2022.gif)
 Starting kit for the [REAL2022 competition on Robot open-Ended Autonomous Learning](https://eval.ai/web/challenges/challenge-page/1858/overview).
 
 The REAL Competition is an online challenge, open to everyone, aimed at building a robot controller that autonomously learns to interact with an environment in an open-ended way, without being instructed specifically for a task.  
