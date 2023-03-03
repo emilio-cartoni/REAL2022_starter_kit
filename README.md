@@ -30,6 +30,7 @@ conda env create -f environment.yml
 ```
 This could last a while as many libraries that are needed by the baseline will be installed, including Tensorflow.  
 (It is possible to reduce the libraries in the environment if you do not want to run the baseline).  
+If you want to install the environment on a MAC, you can try the environment_MAC.yml instead.
 
 ## How to launch the baseline agent
 1. Activate the real_robots conda environment  
